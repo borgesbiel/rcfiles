@@ -179,7 +179,6 @@ if exists("+undofile")
 endif
 
 " Ruby hash syntax conversion
-noremap <F12>
 nnoremap <F12> :%s/:\([^ ]*\)\(\s*\)=>/\1:/g<return>
 
 " Increment numbers
